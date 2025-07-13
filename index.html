@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diário do Gasparsinho Moranguinho</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">🍓 Gasparsinho</div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Início</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre mim</a></li>
+        <li><a href="#historias" class="nav-link">Minhas Histórias</a></li>
+        <li><a href="#indicacoes" class="nav-link">Indicações</a></li>
+        <li><a href="#entrevistas" class="nav-link">Curiosidades</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Diário do Gasparsinho Moranguinho</h1>
+      <p class="hero-subtitle">Onde histórias florescem como morangos no jardim da imaginação ✨</p>
+      <button class="cta-button" onclick="scrollToSection('historias')">Descobrir Histórias</button>
+    </div>
+    <div class="strawberry-decoration">🍓</div>
+  </section>
+
+  <!-- Sobre mim Section -->
+  <section id="sobre" class="about">
+    <div class="container">
+      <h2 class="section-title">Sobre mim</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Olá! Eu sou o Gasparsinho, um sonhador que encontrou nas palavras um refúgio doce como morangos frescos.</p>
+          <p>Comecei a escrever quando.....</p>
+          <p>Me inspiro nas pequenas coisas: ...</p>
+        </div>
+        <div class="about-image">
+          <div class="image-placeholder">📚✨</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Minhas Histórias Section -->
+  <section id="historias" class="stories">
+    <div class="container">
+      <h2 class="section-title">Minhas Histórias</h2>
+      <div class="categories">
+        <button class="category-btn active" data-category="todas">Todas</button>
+        <button class="category-btn" data-category="romance">Romance</button>
+        <button class="category-btn" data-category="fantasia">Fantasia</button>
+        <button class="category-btn" data-category="drama">Drama</button>
+      </div>
+      <div class="stories-grid">
+        <div class="story-card" data-category="romance">
+          <div class="story-cover">💕</div>
+          <h3>Historia 1</h3>
+          <p>Uma história...</p>
+          <button class="read-more-btn">Ler mais</button>
+        </div>
+        <div class="story-card" data-category="fantasia">
+          <div class="story-cover">🌙</div>
+          <h3>Historia 2</h3>
+          <p>Uma história...</p>
+          <button class="read-more-btn">Ler mais</button>
+        </div>
+        <div class="story-card" data-category="drama">
+          <div class="story-cover">🌧️</div>
+          <h3>Historia 3</h3>
+          <p>Uma história...</p>
+          <button class="read-more-btn">Ler mais</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Indicações Section -->
+  <section id="indicacoes" class="recommendations">
+    <div class="container">
+      <h2 class="section-title">Indicações</h2>
+      <div class="recommendations-grid">
+        <div class="recommendation-card">
+          <h3>Indicação 1</h3>
+          <p>Uma indicação de história</p>
+          <span class="rating">⭐⭐⭐⭐⭐</span>
+        </div>
+        <div class="recommendation-card">
+          <h3>Indicação 2</h3>
+          <p>Uma indicação de história</p>
+          <span class="rating">⭐⭐⭐⭐</span>
+        </div>
+        <div class="recommendation-card">
+          <h3>Indicação 3</h3>
+          <p>Uma indicação de história</p>
+          <span class="rating">⭐⭐⭐⭐⭐</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Entrevistas e Curiosidades Section -->
+  <section id="entrevistas" class="curiosities">
+    <div class="container">
+      <h2 class="section-title">Entrevistas & Curiosidades</h2>
+      <div class="curiosities-content">
+        <div class="curiosity-item">
+          <h3>🎭 Conversando com meus Personagens</h3>
+          <p>Às vezes me pego conversando com os personagens das minhas histórias. Eles têm opiniões próprias sobre seus destinos!</p>
+        </div>
+        <div class="curiosity-item">
+          <h3>🍓 Por que Morangos?</h3>
+          <p>Os morangos representam para mim a doçura escondida na vida. Pequenos, delicados, mas cheios de sabor - como as melhores histórias.</p>
+        </div>
+        <div class="curiosity-item">
+          <h3>✍️ Meu Ritual de Escrita</h3>
+          <p>Sempre escrevo com uma ...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato Section -->
+  <section id="contato" class="contact">
+    <div class="container">
+      <h2 class="section-title">Vamos Conversar?</h2>
+      <div class="contact-content">
+        <p>Adoraria ouvir sua opinião sobre minhas histórias ou trocar uma ideia sobre literatura!</p>
+        <div class="contact-options">
+          <a href="https://instagram.com" target="_blank" class="contact-btn">
+            📱 Me siga no Instagram
+          </a>
+          <a href="mailto:gasparsinho@email.com" class="contact-btn">
+            ✉️ Envie um Email
+          </a>
+        </div>
+        <div class="message-box">
+          <h3>Deixe uma mensagem:</h3>
+          <textarea placeholder="Conte-me o que achou das histórias, sugestões, ou qualquer coisa que queira compartilhar..."></textarea>
+          <button class="send-btn">Enviar Mensagem</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Diário do Gasparsinho Moranguinho. Feito com 💖 e muitos morangos.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
